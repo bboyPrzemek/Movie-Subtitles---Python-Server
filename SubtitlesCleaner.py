@@ -8,6 +8,7 @@ from nltk import pos_tag
 from nltk.stem import WordNetLemmatizer
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 def get_unique_words_from_subtitles(data):
     lines = get_lines_from_subtitles(data)
