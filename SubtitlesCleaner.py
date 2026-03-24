@@ -10,6 +10,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger_eng')
+nltk.download('wordnet')
 
 def get_unique_words_from_subtitles(data):
     lines = get_lines_from_subtitles(data)
