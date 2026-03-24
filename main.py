@@ -15,7 +15,7 @@ app.add_middleware(
 @app.post("/{movieId}")
 def get_words(movieId):
     
-    unique_words = SubtitlesService.get_unique_words_from_subtitles(movieId)
+    #unique_words = SubtitlesService.get_unique_words_from_subtitles(movieId)
     #print(unique_words)
     print("Received request for movie ID:", movieId)
     return ["The", "Angel", "home", "is", "where", "the", "heart", "is"]
